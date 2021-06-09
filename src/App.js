@@ -9,9 +9,9 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Header />
+        <Header title="Welcome to HornedBeast Kingdom" />
         <Main />
-        <Footer />
+        <Footer author="Shan@2021"/>
       </> 
     )
   }
