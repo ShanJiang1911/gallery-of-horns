@@ -1,14 +1,16 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
-import triceratops from './Images/triceratops.jpg';
+import HornedBeastData from './resources/data.json';
+import CardColumns from 'react-bootstrap/CardColumns';
 
 class Main extends React.Component {
     render() {
       return (
         <>
-          <HornedBeast title="Buffalo" imageUrl="https://image.freepik.com/free-photo/closeup-shot-obstinacy-buffalo-green-field-sunny-day_181624-30827.jpg" description="This is wild Buffalo"/>
-          <HornedBeast title="Triceratops" imageUrl={triceratops} description="This is a dinosaur" />
-        </> 
+          <HornedBeast title="Mouflon" imageUrl="https://images.unsplash.com/photo-1558560063-931ca9822a0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" description="Those horns though" />
+          <HornedBeast title="UniWhal" imageUrl="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg" description="A unicorn and a narwhal nuzzling their horns" />
+          <HornedBeast title="Rhino Family" imageUrl="https://images.unsplash.com/photo-1512636618879-bbe79107e9e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd9460ee6d1ddbb6b1ca7be86dfc4590&auto=format&fit=crop&w=1825&q=80" description="Mother (or father) rhino with two babies" />
+        </>
       )
     }
 }
